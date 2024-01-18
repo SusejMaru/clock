@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #time-left {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  #timer-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los botones con forma de flecha */
+  button#session-decrement, button#session-increment, button#break-decrement, button#break-increment {
+    font-size: 24px;
+    padding: 5px 10px;
+  }
+  
+  /* Estilos para el reloj y el fondo */
+  #timer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button#session-decrement, button#session-increment, button#break-decrement, button#break-increment {
+    font-size: 24px;
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#session-decrement:hover, button#session-increment:hover, button#break-decrement:hover, button#break-increment:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+  }
+  
+  /* Estilos para el botón de inicio/pausa */
+  button#start_stop {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #008CBA; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#start_stop:hover {
+    background-color: #007A99; /* Cambio de color al pasar el mouse */
+  }
+  
+  /* Estilos para el botón de reinicio */
+  button#reset {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #f44336; /* Color de fondo rojo */
+    color: white; /* Color del texto blanco */
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#reset:hover {
+    background-color: #d32f2f; /* Cambio de color al pasar el mouse */
+  }
